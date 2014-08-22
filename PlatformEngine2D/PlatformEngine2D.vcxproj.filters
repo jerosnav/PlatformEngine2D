@@ -1,0 +1,332 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms;</Extensions>
+    </Filter>
+    <Filter Include="CoreLib">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="CoreLib\Tilemap">
+      <UniqueIdentifier>{c82f3c4f-3b1d-488e-88f9-d05ed4113412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Tilemap\header">
+      <UniqueIdentifier>{4106da80-27b8-448a-ace5-c8fe185d6ec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Tilemap\source">
+      <UniqueIdentifier>{d2c849b0-9599-486b-9270-4ba9ee292056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Sprite">
+      <UniqueIdentifier>{964cc2c4-23a6-483c-942c-9cd4def49314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Sprite\header">
+      <UniqueIdentifier>{caf5b74e-2b10-4ad7-984e-a5494af486bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Sprite\source">
+      <UniqueIdentifier>{f2c633da-2b21-4296-915d-94881df2192b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Core">
+      <UniqueIdentifier>{e95bae94-ae57-48f5-8e76-81d25ac1f6be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Core\header">
+      <UniqueIdentifier>{b47d79a8-83d4-43fa-992e-17ea8a6bcbf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Core\source">
+      <UniqueIdentifier>{57382e5c-f693-40d9-b976-afd662b34376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\PhysicEngine">
+      <UniqueIdentifier>{e2eafb82-c384-46d8-aff7-572ee251271f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\PhysicEngine\header">
+      <UniqueIdentifier>{5d396a62-ce60-40e2-8ecb-dc0cdf750083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\PhysicEngine\source">
+      <UniqueIdentifier>{0f99a0bb-0fe2-4257-be25-4013d9bf7d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Camera">
+      <UniqueIdentifier>{d77f4551-db07-4874-bc5e-33018f6130f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Camera\header">
+      <UniqueIdentifier>{c014eff7-cd6d-450c-87f5-ee5678a6daff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Camera\source">
+      <UniqueIdentifier>{dffd3eac-dbc9-447d-9f82-480e836f42ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Input">
+      <UniqueIdentifier>{438e23f9-1738-4abe-93b7-17339ced338f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Input\header">
+      <UniqueIdentifier>{118dd922-921c-4ceb-a626-def3ee9008ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Input\source">
+      <UniqueIdentifier>{2af7b223-29d3-42b9-9582-02ecd3839c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Debug">
+      <UniqueIdentifier>{38b8a24a-cf48-4635-807a-72c76d080d5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Utils">
+      <UniqueIdentifier>{345803b5-0efa-4615-a079-5901161a09c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Utils\header">
+      <UniqueIdentifier>{b82b309e-296c-4b8d-a7c6-03189550a589}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\Utils\source">
+      <UniqueIdentifier>{bf473f4e-6649-44db-9328-d070c9a94f11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\TinyXml2">
+      <UniqueIdentifier>{3e6d02d8-4b7f-464b-864e-4a7b768be1fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\TinyXml2\header">
+      <UniqueIdentifier>{ce016745-4ed8-4a77-9dbe-669bf629dd27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\TinyXml2\source">
+      <UniqueIdentifier>{573bfc10-c07d-4c06-9613-ba266c2e77cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\SoundMgr">
+      <UniqueIdentifier>{d6c3a5c4-46ba-465c-ad82-7abd314c8345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\SoundMgr\header">
+      <UniqueIdentifier>{27438b6c-3b3c-4478-9f20-bd2b0331069d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CoreLib\SoundMgr\source">
+      <UniqueIdentifier>{c1ebdfa4-b2fd-4b55-aa74-2e4d0599959d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\Resources\Irrlicht.dll">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ICamera.cpp">
+      <Filter>CoreLib\Camera\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityCollisionMgr.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityNode.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="IEntityStateMachine.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="IStateMachine.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerNode.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="InputKeyboard.cpp">
+      <Filter>CoreLib\Input\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EventReceiverMgr.cpp">
+      <Filter>CoreLib\Input\source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhyTileEngine.cpp">
+      <Filter>CoreLib\PhysicEngine\source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhyEngine.cpp">
+      <Filter>CoreLib\PhysicEngine\source</Filter>
+    </ClCompile>
+    <ClCompile Include="PhyObject.cpp">
+      <Filter>CoreLib\PhysicEngine\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite\Sprite.cpp">
+      <Filter>CoreLib\Sprite\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tileset.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerTile.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Properties.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="TileLayer.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="TileLayerNode.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tilemap.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="TilemapExporter.cpp">
+      <Filter>CoreLib\Tilemap\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Drawing.cpp">
+      <Filter>CoreLib\Utils\source</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameStateMachine.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMouse.cpp">
+      <Filter>CoreLib\Input\source</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2\tinyxml2.cpp">
+      <Filter>CoreLib\TinyXml2\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteComponent.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameManager.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>CoreLib\SoundMgr\source</Filter>
+    </ClCompile>
+    <ClCompile Include="IObjectManager.cpp">
+      <Filter>CoreLib\Core\source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DebugMgr.h">
+      <Filter>CoreLib\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugCamera.h">
+      <Filter>CoreLib\Camera\header</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>CoreLib\Camera\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCollisionMgr.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityNode.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IEntityStateMachine.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameManager.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IObjectManager.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IStateMachine.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerNode.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EventReceiverMgr.h">
+      <Filter>CoreLib\Input\header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKeyboard.h">
+      <Filter>CoreLib\Input\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyEngine.h">
+      <Filter>CoreLib\PhysicEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyTileEngine.h">
+      <Filter>CoreLib\PhysicEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyObject.h">
+      <Filter>CoreLib\PhysicEngine\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\AFrame.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\Sprite.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\Animation.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\AnimationPlayer.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\BitMap.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\FMkPoint.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\FMkRect.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\FModule.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\Frame.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\ISpriteObj.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\MkPoint.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\MkRect.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite\Module.h">
+      <Filter>CoreLib\Sprite\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tileset.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="LayerTile.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Properties.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayer.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayerNode.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Tilemap.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TilemapExporter.h">
+      <Filter>CoreLib\Tilemap\header</Filter>
+    </ClInclude>
+    <ClInclude Include="TextUtil.h">
+      <Filter>CoreLib\Utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="Drawing.h">
+      <Filter>CoreLib\Utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtil.h">
+      <Filter>CoreLib\Utils\header</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameStateMachine.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMouse.h">
+      <Filter>CoreLib\Input\header</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2\tinyxml2.h">
+      <Filter>CoreLib\TinyXml2\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteComponent.h">
+      <Filter>CoreLib\Core\header</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>CoreLib\SoundMgr\header</Filter>
+    </ClInclude>
+    <ClInclude Include="AlgorithmUtil.h">
+      <Filter>CoreLib\Utils\header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

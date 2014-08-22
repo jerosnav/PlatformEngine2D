@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntityBlock.cpp" />
+    <ClCompile Include="EntityBlock_State_Dying.cpp" />
+    <ClCompile Include="EntityBlock_State_Hurt.cpp" />
+    <ClCompile Include="EntityBlock_State_Idle.cpp" />
+    <ClCompile Include="EntityChest.cpp" />
+    <ClCompile Include="EntityCollectible.cpp" />
+    <ClCompile Include="EntityDoor.cpp" />
+    <ClCompile Include="EntityDropItem.cpp" />
+    <ClCompile Include="EntityFactory.cpp" />
+    <ClCompile Include="EntityRock.cpp" />
+    <ClCompile Include="EntityRock_State_Idle.cpp" />
+    <ClCompile Include="EntityFireSnake.cpp" />
+    <ClCompile Include="EntityFireSnake_State_Attacking.cpp" />
+    <ClCompile Include="EntityFireSnake_State_Idle.cpp" />
+    <ClCompile Include="EntityMushSmall.cpp" />
+    <ClCompile Include="EntityMushSmall_State_Dying.cpp" />
+    <ClCompile Include="EntityMushSmall_State_Hurt.cpp" />
+    <ClCompile Include="EntityMushSmall_State_Walking.cpp" />
+    <ClCompile Include="EntityPlayer.cpp" />
+    <ClCompile Include="EntityPlayer_State_Attacking.cpp" />
+    <ClCompile Include="EntityPlayer_State_Attacking_Crouch.cpp" />
+    <ClCompile Include="EntityPlayer_State_Crouch.cpp" />
+    <ClCompile Include="EntityPlayer_State_Dying.cpp" />
+    <ClCompile Include="EntityPlayer_State_Falling.cpp" />
+    <ClCompile Include="EntityPlayer_State_Hurt.cpp" />
+    <ClCompile Include="EntityPlayer_State_Idle.cpp" />
+    <ClCompile Include="EntityPlayer_State_Jumping.cpp" />
+    <ClCompile Include="EntityPlayer_State_LookingUp.cpp" />
+    <ClCompile Include="EntityPlayer_State_Running.cpp" />
+    <ClCompile Include="EntityPlayer_State_Walking.cpp" />
+    <ClCompile Include="EntityRockMouth.cpp" />
+    <ClCompile Include="EntityRockMouth_State_Attack.cpp" />
+    <ClCompile Include="EntityRockMouth_State_Idle.cpp" />
+    <ClCompile Include="EntitySlime.cpp" />
+    <ClCompile Include="EntitySlime_State_Dying.cpp" />
+    <ClCompile Include="EntitySlime_State_Hurt.cpp" />
+    <ClCompile Include="EntitySlime_State_Idle.cpp" />
+    <ClCompile Include="EntityVisualFx.cpp" />
+    <ClCompile Include="EntityVisualFx_State_Idle.cpp" />
+    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Game_State_GamePlay.cpp" />
+    <ClCompile Include="Game_State_LoadingRoom.cpp" />
+    <ClCompile Include="Game_State_TitleScreen.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="PlatformGame.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PlatformEngine2D\PlatformEngine2D.vcxproj">
+      <Project>{2b70ab7f-3b77-44a4-819c-4e8745b2aa52}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EntityBlock.h" />
+    <ClInclude Include="EntityChest.h" />
+    <ClInclude Include="EntityCollectible.h" />
+    <ClInclude Include="EntityCollisionFlags.h" />
+    <ClInclude Include="EntityDoor.h" />
+    <ClInclude Include="EntityDropItem.h" />
+    <ClInclude Include="EntityFactory.h" />
+    <ClInclude Include="EntityRock.h" />
+    <ClInclude Include="EntityFireSnake.h" />
+    <ClInclude Include="EntityMushSmall.h" />
+    <ClInclude Include="EntityPlayer.h" />
+    <ClInclude Include="EntityRockMouth.h" />
+    <ClInclude Include="EntitySlime.h" />
+    <ClInclude Include="EntityUtils.h" />
+    <ClInclude Include="EntityVisualFx.h" />
+    <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GuiManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tips.txt" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DE13FD8C-A854-4F19-9ADF-B97C00128A8B}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>PlatformGame</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PlatformEngine2D\;..\PlatformEngine2D\Sprite;..\PlatformEngine2D\irrlicht\include;..\PlatformEngine2D\SoundMix\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>..\PlatformEngine2D\irrlicht\lib;..\PlatformEngine2D\SoundMix\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-audio-d.lib;sfml-system-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy /y /s /D "$(SolutionDir)Resources\*.*" "$(SolutionDir)$(Configuration)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\PlatformEngine2D\;..\PlatformEngine2D\Sprite;..\PlatformEngine2D\irrlicht\include;..\PlatformEngine2D\SoundMix\include</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>..\PlatformEngine2D\irrlicht\lib;..\PlatformEngine2D\SoundMix\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;sfml-audio-s.lib;sfml-system-s.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PreBuildEvent>
+      <Command>xcopy /y /s /D "$(SolutionDir)Resources\*.*" "$(SolutionDir)$(Configuration)"</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

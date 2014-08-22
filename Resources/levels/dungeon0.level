@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tilemap version="1.0" source="..\maps\dungeon0.tmx" />
+<layer name="Walls" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Background" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Background1" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="ObjDecoration" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" >
+	<entity name="door0" template="door" offsetX="80" offsetY="288" spriteSource=".\sprites\door.sprite" tag="door0" targetRoom=".\levels\levelDemo.level" targetDoor="door0" />
+</layer>
+<layer name="Objects" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Foreground" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Physic" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+

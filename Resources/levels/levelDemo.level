@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tilemap version="1.0" source="..\maps\level0.tmx" />
+<layer name="Landscape" imgSrc=".\sprites\landscape_loop.png" width="1600" height="480" offsetX="-200" offsetY="-150" parallaxFactorX="0.15" parallaxFactorY="0.10" parallaxZoomFactor="0.5" />
+<layer name="landtree0" imgSrc=".\sprites\landtree.png" width="2600" height="256" offsetX="0" offsetY="210" parallaxFactorX="0.30" parallaxFactorY="0.35" parallaxZoomFactor="0.125" />
+<layer name="landtree1" imgSrc=".\sprites\landtree.png" width="2600" height="256" offsetX="-40" offsetY="240" parallaxFactorX="0.40" parallaxFactorY="0.45" parallaxZoomFactor="0.25" />
+<layer name="landtree2" imgSrc=".\sprites\landtree.png" width="4600" height="256" offsetX="-85" offsetY="270" parallaxFactorX="0.5" parallaxFactorY="0.55" parallaxZoomFactor="0.50" />
+<layer name="landtree3" imgSrc=".\sprites\landtree.png" width="4600" height="256" offsetX="-20" offsetY="320" parallaxFactorX="0.60" parallaxFactorY="0.65" parallaxZoomFactor="0.75" />
+<layer name="landtree4" imgSrc=".\sprites\landtree.png" width="4600" height="256" offsetX="-40" offsetY="400" parallaxFactorX="0.75" parallaxFactorY="0.75" parallaxZoomFactor="0.80" />
+<layer name="landtree5" imgSrc=".\sprites\landtree.png" width="4600" height="256" offsetX="-30" offsetY="470" parallaxFactorX="0.8" parallaxFactorY="0.85" parallaxZoomFactor="0.90" />
+<layer name="Walls" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Background" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Background1" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="ObjDecoration" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" >
+	<entity name="door0" template="door" offsetX="472" offsetY="736" spriteSource=".\sprites\door.sprite" tag="door0" targetRoom=".\levels\dungeon0.level" targetDoor="door0" />
+</layer>
+<layer name="Objects" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" >
+ <entity name="player" template="player" sprite=".\sprites\playerSprite.sprite" offsetX="200" offsetY="799" jumpVeloc="250" movingVeloc="75" movingAcc="1000" jumpAcc="200" jumpMoveAcc="600" />
+</layer>
+<layer name="Foreground" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+<layer name="Physic" offsetX="0" offsetY="0" parallaxFactorX="1.0" parallaxFactorY="1.0" />
+

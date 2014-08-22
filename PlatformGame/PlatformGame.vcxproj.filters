@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{b13d30be-668b-44f9-a92f-f1cccdcf7674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Player">
+      <UniqueIdentifier>{67624b02-0a7b-40b5-af10-eb4d09718b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\FireSnake">
+      <UniqueIdentifier>{d15698a0-8ef8-452c-b312-8bcc0748b2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\mushroom_small">
+      <UniqueIdentifier>{c1985de4-50c6-46c0-8f0d-7409e632ed9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Block">
+      <UniqueIdentifier>{54c735d7-f4fe-433c-9548-9e9f0a80d657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Slime">
+      <UniqueIdentifier>{f22149e3-7c13-4564-ac27-14d646a439ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore">
+      <UniqueIdentifier>{16c84d45-fe3b-48bc-8261-85d2112b6f9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore\header">
+      <UniqueIdentifier>{2c86a8ec-52a7-454a-81d9-4aeef702e1c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameCore\source">
+      <UniqueIdentifier>{33553c9c-be78-490a-8fba-6e5655ee3378}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Collectible">
+      <UniqueIdentifier>{bfb8d207-1586-4106-b9b2-64698228151f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\DropItem">
+      <UniqueIdentifier>{864de03b-844c-4bc0-904c-32318afe53f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\RockMouth">
+      <UniqueIdentifier>{5a9a9645-bf39-4a4a-ba97-97e22bea0075}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\chest">
+      <UniqueIdentifier>{67679958-b1ce-457a-a9ab-2eb186a35ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Door">
+      <UniqueIdentifier>{d8ef23c7-6689-4dbc-9ef5-e7a3730ee912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\Rock">
+      <UniqueIdentifier>{fa4ca42f-75cf-4240-ab18-aede932f56a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity\VisualFx">
+      <UniqueIdentifier>{2f9a1c4f-5810-46c3-9eb0-14dee8420ed7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EntityPlayer.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Falling.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Idle.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Jumping.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Walking.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFireSnake.cpp">
+      <Filter>Entity\FireSnake</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFireSnake_State_Idle.cpp">
+      <Filter>Entity\FireSnake</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFireSnake_State_Attacking.cpp">
+      <Filter>Entity\FireSnake</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Attacking.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Running.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMushSmall.cpp">
+      <Filter>Entity\mushroom_small</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMushSmall_State_Walking.cpp">
+      <Filter>Entity\mushroom_small</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMushSmall_State_Hurt.cpp">
+      <Filter>Entity\mushroom_small</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityMushSmall_State_Dying.cpp">
+      <Filter>Entity\mushroom_small</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Hurt.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Dying.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Crouch.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_Attacking_Crouch.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBlock.cpp">
+      <Filter>Entity\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBlock_State_Idle.cpp">
+      <Filter>Entity\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBlock_State_Dying.cpp">
+      <Filter>Entity\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityBlock_State_Hurt.cpp">
+      <Filter>Entity\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySlime.cpp">
+      <Filter>Entity\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityPlayer_State_LookingUp.cpp">
+      <Filter>Entity\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>GameCore\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityFactory.cpp">
+      <Filter>GameCore\source</Filter>
+    </ClCompile>
+    <ClCompile Include="PlatformGame.cpp" />
+    <ClCompile Include="EntityCollectible.cpp">
+      <Filter>Entity\Collectible</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDropItem.cpp">
+      <Filter>Entity\DropItem</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySlime_State_Idle.cpp">
+      <Filter>Entity\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySlime_State_Hurt.cpp">
+      <Filter>Entity\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="EntitySlime_State_Dying.cpp">
+      <Filter>Entity\Slime</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRockMouth.cpp">
+      <Filter>Entity\RockMouth</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRockMouth_State_Idle.cpp">
+      <Filter>Entity\RockMouth</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRockMouth_State_Attack.cpp">
+      <Filter>Entity\RockMouth</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRock.cpp">
+      <Filter>Entity\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityRock_State_Idle.cpp">
+      <Filter>Entity\Rock</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_State_GamePlay.cpp">
+      <Filter>GameCore\source</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_State_TitleScreen.cpp">
+      <Filter>GameCore\source</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>GameCore\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityChest.cpp">
+      <Filter>Entity\chest</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityDoor.cpp">
+      <Filter>Entity\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Game_State_LoadingRoom.cpp">
+      <Filter>GameCore\source</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityVisualFx_State_Idle.cpp">
+      <Filter>Entity\VisualFx</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityVisualFx.cpp">
+      <Filter>Entity\VisualFx</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EntityMushSmall.h">
+      <Filter>Entity\mushroom_small</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityPlayer.h">
+      <Filter>Entity\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityBlock.h">
+      <Filter>Entity\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="EntitySlime.h">
+      <Filter>Entity\Slime</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFireSnake.h">
+      <Filter>Entity\FireSnake</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>GameCore\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCollisionFlags.h">
+      <Filter>GameCore\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityFactory.h">
+      <Filter>GameCore\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityCollectible.h">
+      <Filter>Entity\Collectible</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDropItem.h">
+      <Filter>Entity\DropItem</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRockMouth.h">
+      <Filter>Entity\RockMouth</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityUtils.h">
+      <Filter>GameCore\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityRock.h">
+      <Filter>Entity\Rock</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>GameCore\header</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityChest.h">
+      <Filter>Entity\chest</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityDoor.h">
+      <Filter>Entity\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityVisualFx.h">
+      <Filter>Entity\VisualFx</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tips.txt" />
+  </ItemGroup>
+</Project>

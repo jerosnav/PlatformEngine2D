@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Sprite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Bitmaps>
+    <BitmapFilePath>.\titleScreen.png</BitmapFilePath>
+  </Bitmaps>
+  <Modules>
+    <Id>1000</Id>
+    <Tag />
+    <Rect>
+      <X>0</X>
+      <Y>0</Y>
+      <Width>256</Width>
+      <Height>192</Height>
+      <Location>
+        <X>0</X>
+        <Y>0</Y>
+      </Location>
+    </Rect>
+    <ImgIdx>0</ImgIdx>
+  </Modules>
+  <Modules>
+    <Id>1001</Id>
+    <Tag />
+    <Rect>
+      <X>58</X>
+      <Y>176</Y>
+      <Width>132</Width>
+      <Height>8</Height>
+      <Location>
+        <X>58</X>
+        <Y>176</Y>
+      </Location>
+    </Rect>
+    <ImgIdx>0</ImgIdx>
+  </Modules>
+  <Frames>
+    <Id>4000</Id>
+    <Tag />
+    <FModule>
+      <Id>1000</Id>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+      <Flags>0</Flags>
+    </FModule>
+  </Frames>
+  <Frames>
+    <Id>4001</Id>
+    <Tag />
+    <FModule>
+      <Id>1000</Id>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+      <Flags>0</Flags>
+    </FModule>
+    <FModule>
+      <Id>1001</Id>
+      <Offset>
+        <X>64</X>
+        <Y>168</Y>
+      </Offset>
+      <Flags>0</Flags>
+    </FModule>
+  </Frames>
+  <Animations>
+    <Id>5000</Id>
+    <Tag />
+    <AFrames>
+      <Id>4000</Id>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+      <TimeMs>180</TimeMs>
+    </AFrames>
+    <AFrames>
+      <Id>4001</Id>
+      <Offset>
+        <X>0</X>
+        <Y>0</Y>
+      </Offset>
+      <TimeMs>180</TimeMs>
+    </AFrames>
+  </Animations>
+</Sprite>
